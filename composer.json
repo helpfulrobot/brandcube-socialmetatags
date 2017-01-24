@@ -2,7 +2,7 @@
   "name": "brandcube/socialmetatags",
   "description": "Manage your own Social Media tags for sharing pages",
   "type": "silverstripe-module",
-  "homepage": "",
+  "homepage": "https://github.com/Brandcube-nl",
   "keywords": ["silverstripe", "social", "meta", "tags"],
   "license": "Brandcube",
   "authors": [
@@ -12,7 +12,7 @@
     }
   ],
   "support": {
-    "issues": ""
+    "issues": "support@brandcube.nl"
   },
   "require": {
     "php": ">=5.3.3,<7",
