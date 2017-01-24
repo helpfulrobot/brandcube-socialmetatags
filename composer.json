@@ -11,9 +11,6 @@
       "email": "tomouderengerink@gmail.com"
     }
   ],
-  "support": {
-    "issues": "support@brandcube.nl"
-  },
   "require": {
     "php": ">=5.3.3,<7",
     "silverstripe/framework": "3.*",
