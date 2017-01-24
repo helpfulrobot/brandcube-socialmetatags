@@ -1,0 +1,17 @@
+nl_NL:
+  SocialPreviewField.ss:
+    WARNING: 'Let op! Je moet je Twitter gebruikersnaam eerst instellen'
+    VIEW: 'Bekijken'
+  SocialPageExtension:
+    TITLE: 'Titel'
+    DESCRIPTION: 'Beschrijving'
+    DESCDESC: 'Houdt de beschrijving rond de 90 karakters'
+    IMAGE: 'Afbeelding'
+    IMAGEDESC: 'Upload hier de afbeelding bij het bericht'
+    INFO: 'Vul hieronder content in voor de verschillende sociale kanalen. Als het veld leeg wordt gelaten worden de standaarden overgenomen.'
+  SiteConfigSocialExtension:
+    TITLE: 'Gebruikersnaam Twitter'
+    PLACEHOLDER: 'Gebruikersnaam'
+    DESCRIPTION: 'Voer hier je twitter gebruikersnaam zonder @'
+  SocialPreviewField:
+    PREVIEW: 'Bekijk voorbeeld'

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+.general-info {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1a1a1a;
+    display: inline-block;
+    position: relative;
+    max-width: 952px;
+    padding-left: 15px;
+    border-left: 2px solid rgba(59, 109, 255, 0.8);
+    border-radius: 0;
+    margin-bottom: 35px;
+}
+.social-name {
+    width: 983px;
+    margin-bottom: 20px;
+}
+.social-name span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background: rgba(59,109,255,0.8);
+    padding: 10px 15px 10px 45px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+}
+.social-name span::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.social-name.facebook span::before {
+    background-image: url('../images/facebook-logo.png');
+}
+.social-name .preview-button {
+    float: right;
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background: rgba(59,109,255,0.8);
+    cursor: pointer;
+}
+/*** Preview modal ***/
+#SocialPreviewModal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+#SocialPreviewModal .preview-content {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+}
+#SocialPreviewModal .preview-content .preview-image {
+    width: 100%;
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+#SocialPreviewModal .preview-content .text-content {
+    padding: 10px 12px;
+    float: left;
+}
+#SocialPreviewModal .preview-content .text-content .preview-title
+{
+    font-family: Georgia, serif;
+    letter-spacing: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #000;
+    float: left;
+    width: 100%;
+}
+#SocialPreviewModal .preview-content .text-content .preview-description {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    float: left;
+    width: 100%;
+    line-height: 16px;
+}
+#SocialPreviewModal .preview-content .text-content .preview-url {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #90949c;
+    float: left;
+    width: 100%;
+    margin-top: 9px;
+}
+#CloseFacebookPreview {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: -50px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+#CloseFacebookPreview::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    top: 14px;
+    transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+}
+#CloseFacebookPreview::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    top: 14px;
+    transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+}
+#CloseFacebookPreview:hover {
+    opacity: 1;
+}
+
+/** Warning message **/
+.warning-message {
+    position: absolute;
+    top: -60px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: 2px solid red;
+    color: #000;
+}

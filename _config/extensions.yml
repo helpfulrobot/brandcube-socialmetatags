@@ -1,0 +1,6 @@
+SiteConfig:
+  extensions:
+    - SiteConfigSocialExtension
+Page:
+  extensions:
+    - SocialPageExtension

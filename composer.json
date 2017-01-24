@@ -1,0 +1,29 @@
+{
+  "name": "brandcube/socialmetatags",
+  "description": "Manage your own Social Media tags for sharing pages",
+  "type": "silverstripe-module",
+  "homepage": "",
+  "keywords": ["silverstripe", "social", "meta", "tags"],
+  "license": "Brandcube",
+  "authors": [
+    {
+      "name": "Tom Oude Rengerink",
+      "email": "tomouderengerink@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": ""
+  },
+  "require": {
+    "php": ">=5.3.3,<7",
+    "silverstripe/framework": "3.*",
+    "silverstripe/cms": "3.*"
+  },
+  "extra": {
+    "installer-name": "socialmetatags",
+    "branch-alias": {
+      "dev-master": ""
+    },
+    "screenshots": []
+  }
+}

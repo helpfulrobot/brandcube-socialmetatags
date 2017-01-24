@@ -1,0 +1,5 @@
+LeftAndMain:
+  extra_requirements_css:
+    - social-meta-tags/css/socialmetatags.css
+  extra_requirements_javascript:
+    - social-meta-tags/js/socialmetatags.js
