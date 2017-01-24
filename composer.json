@@ -19,7 +19,7 @@
   "extra": {
     "installer-name": "socialmetatags",
     "branch-alias": {
-      "dev-master": ""
+      "dev-master": "1.0-dev"
     },
     "screenshots": []
   }
